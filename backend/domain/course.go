@@ -5,8 +5,9 @@ import (
 )
 
 type Course struct {
-	Name  string
-	Price *CoursePrice
+	Consultant *Consultant
+	Name       string
+	Price      *CoursePrice
 }
 
 type CoursePrice struct {
