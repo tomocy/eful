@@ -7,7 +7,7 @@ import (
 
 type Event struct {
 	Client     *User
-	Specialist *Specialist
+	Consultant *Consultant
 	DateTime   *EventDateTime
 	Location   *EventLocation
 }

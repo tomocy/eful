@@ -1,6 +1,6 @@
 package domain
 
-type Specialist struct {
+type Consultant struct {
 	Name    string
 	Title   string
 	Cources []*Course
