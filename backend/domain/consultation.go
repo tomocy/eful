@@ -8,6 +8,7 @@ import (
 type Consultation struct {
 	Client     *User
 	Consultant *Consultant
+	Content    string
 	DateTime   *ConsultationDateTime
 	Location   *ConsultationLocation
 }
